@@ -3,23 +3,53 @@
   "msg": "success",
   "data": [
     {
-      "id": 2,
+      "id": 1,
       "name": "用户管理",
       "url": "profile/index",
       "openStyle": 0,
       "icon": "icon-user"
     },
     {
-      "id": 4,
+      "id": 2,
       "name": "系统设置",
       "url": null,
       "openStyle": 0,
       "icon": "icon-setting",
       "children": [
         {
-          "id": 5,
+          "id": 21,
           "name": "菜单管理",
           "url": "menu/index",
+          "openStyle": 0,
+          "icon": "icon-unorderedlist"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "图表",
+      "url": null,
+      "openStyle": 0,
+      "icon": "icon-setting",
+      "children": [
+        {
+          "id":31,
+          "name": "堆叠面积图",
+          "url": "charts/AreaStack",
+          "openStyle": 0,
+          "icon": "icon-unorderedlist"
+        },
+        {
+          "id": 32,
+          "name": "虚线柱状图",
+          "url": "charts/CategoryStack",
+          "openStyle": 0,
+          "icon": "icon-unorderedlist"
+        },
+        {
+          "id": 33,
+          "name": "上证指数图",
+          "url": "charts/Candlestick",
           "openStyle": 0,
           "icon": "icon-unorderedlist"
         }
