@@ -36,7 +36,7 @@ const props = defineProps({
 	},
 	style: {
 		type: String,
-		default: 'height: 300px;'
+		default: 'height: 400px;'
 	},
 	disabled: {
 		type: Boolean,
@@ -72,7 +72,7 @@ const handleCreated = (editor: IDomEditor) => {
 }
 
 // 编辑器change事件触发
-const emit = defineEmits(['update:modelValue', 'change'])
+const emit = defineEmits(['update:modelValue'])
 const handleChange = (editor: IDomEditor) => {
 	emit('update:modelValue', editor.getHtml())
 }
