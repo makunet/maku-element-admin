@@ -91,6 +91,13 @@
           "url": "icons/index",
           "openStyle": 0,
           "icon": "icon-unorderedlist"
+        },
+        {
+          "id":52,
+          "name": "二维码生成",
+          "url": "qrcode/index",
+          "openStyle": 0,
+          "icon": "icon-unorderedlist"
         }
       ]
     }
