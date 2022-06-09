@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<el-card>
 		<el-row>
 			<el-button>Defaults</el-button>
 			<el-button type="primary">Primary</el-button>
@@ -9,5 +9,5 @@
 			<el-button type="danger">Danger</el-button>
 			<el-button>中文</el-button>
 		</el-row>
-	</div>
+	</el-card>
 </template>

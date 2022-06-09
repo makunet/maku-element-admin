@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<el-card>
 		<el-form :inline="true" :model="queryForm">
 			<el-form-item>
 				<el-input v-model="queryForm.name" placeholder="名称" clearable></el-input>
@@ -23,7 +23,7 @@
 			@size-change="handleSizeChange"
 			@current-change="handleCurrentChange"
 		/>
-	</div>
+	</el-card>
 </template>
 <script setup lang="ts" name="ProfileIndex">
 import { computed, reactive, ref } from 'vue'
