@@ -82,6 +82,13 @@
           "url": "qrcode/index",
           "openStyle": 0,
           "icon": "icon-unorderedlist"
+        },
+        {
+          "id":53,
+          "name": "页面打印",
+          "url": "printJs/index",
+          "openStyle": 0,
+          "icon": "icon-unorderedlist"
         }
       ]
     },
