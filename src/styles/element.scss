@@ -73,6 +73,10 @@
   justify-content: flex-end;
 }
 
+.el-form--inline .el-form-item{
+  margin-right: 16px !important;
+}
+
 .el-drawer .el-drawer__header {
   display: flex;
   align-items: center;
@@ -82,5 +86,8 @@
   color: #595959;
   font-size: 15px;
   border-bottom: 1px solid #f4f4f4;
+}
+.el-card.is-always-shadow{
+  box-shadow: none !important;
 }
 
