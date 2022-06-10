@@ -91,7 +91,7 @@
           "icon": "icon-unorderedlist"
         },
         {
-          "id":53,
+          "id":54,
           "name": "图片裁剪",
           "url": "cropper/index",
           "openStyle": 0,
