@@ -89,6 +89,13 @@
           "url": "printJs/index",
           "openStyle": 0,
           "icon": "icon-unorderedlist"
+        },
+        {
+          "id":53,
+          "name": "图片裁剪",
+          "url": "cropper/index",
+          "openStyle": 0,
+          "icon": "icon-unorderedlist"
         }
       ]
     },
