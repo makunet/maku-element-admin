@@ -1,6 +1,6 @@
 <template>
 	<div class="svg-icon">
-		<svg :class="`${className}`" :style="`color:${color};`" aria-hidden="true">
+		<svg :class="className" :style="`color:${color};`" aria-hidden="true">
 			<use :xlink:href="iconName" />
 		</svg>
 	</div>
@@ -28,13 +28,16 @@ const props = defineProps({
 const iconName = computed(() => `#icon-${props.icon.replace('icon-', '')}`)
 </script>
 
-<style scoped>
-.svg-icon svg {
-	width: 1em;
-	height: 1em;
-	vertical-align: -0.15em;
-	fill: currentColor;
-	overflow: hidden;
-	flex-shrink: 0;
+<style scoped lang="scss">
+.svg-icon {
+	display: inline-block;
+	svg {
+		width: 1em;
+		height: 1em;
+		vertical-align: -0.15em;
+		fill: currentColor;
+		overflow: hidden;
+		flex-shrink: 0;
+	}
 }
 </style>

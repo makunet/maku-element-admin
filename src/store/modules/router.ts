@@ -6,6 +6,7 @@ import { RouteRecordRaw } from 'vue-router'
 export const routerStore = defineStore('routerStore', {
 	state: () => ({
 		menuRoutes: [] as RouteRecordRaw[],
+		searchMenu: [] as RouteRecordRaw[],
 		routes: [] as RouteRecordRaw[]
 	}),
 	actions: {
@@ -16,6 +17,9 @@ export const routerStore = defineStore('routerStore', {
 			this.menuRoutes.push(...routes)
 
 			return this.menuRoutes
+		},
+		setSearchMenu(routers: RouteRecordRaw[]) {
+			this.searchMenu = routers
 		},
 		setRoutes(routers: RouteRecordRaw[]) {
 			this.routes = routers

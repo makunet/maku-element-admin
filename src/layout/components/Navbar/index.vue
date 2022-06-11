@@ -18,6 +18,7 @@
 				<svg-icon icon="icon-gitee-fill-round"></svg-icon>
 			</a>
 			<Fullscreen />
+			<Search />
 			<User />
 			<Settings />
 		</div>
@@ -32,6 +33,7 @@ import Breadcrumb from './components/Breadcrumb.vue'
 import Lang from '@/components/Lang/index.vue'
 import ComponentSize from './components/ComponentSize.vue'
 import Fullscreen from './components/Fullscreen.vue'
+import Search from './components/Search.vue'
 import User from './components/User.vue'
 import Settings from '../Settings/index.vue'
 import { computed } from 'vue'

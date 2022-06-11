@@ -94,6 +94,9 @@ router.beforeEach(async (to, from, next) => {
 				// 保存路由数据
 				store.routerStore.setRoutes(constantRoutes.concat(asyncRoutes))
 
+				// 搜索菜单需要使用
+				store.routerStore.setSearchMenu(keepAliveRoutes)
+
 				next({ ...to, replace: true })
 			} else {
 				next()
