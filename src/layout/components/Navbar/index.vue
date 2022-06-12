@@ -17,8 +17,10 @@
 			<a href="https://gitee.com/makunet/vue-element-plus-admin" target="_blank">
 				<svg-icon icon="icon-gitee-fill-round"></svg-icon>
 			</a>
-			<Fullscreen />
+
 			<Search />
+			<Notice />
+			<Fullscreen />
 			<User />
 			<Settings />
 		</div>
@@ -34,6 +36,7 @@ import Lang from '@/components/Lang/index.vue'
 import ComponentSize from './components/ComponentSize.vue'
 import Fullscreen from './components/Fullscreen.vue'
 import Search from './components/Search.vue'
+import Notice from './components/Notice.vue'
 import User from './components/User.vue'
 import Settings from '../Settings/index.vue'
 import { computed } from 'vue'
