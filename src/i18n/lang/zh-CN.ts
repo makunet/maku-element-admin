@@ -40,6 +40,7 @@ export default {
 		navbarTheme: '主题色顶栏',
 		interface: '界面设置',
 		uniqueOpened: '侧栏排他展开',
+		dark: '开启暗黑模式',
 		logo: '开启LOGO',
 		breadcrumb: '开启面包屑',
 		tabs: '开启标签页',

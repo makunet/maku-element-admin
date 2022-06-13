@@ -145,7 +145,7 @@ a:hover {
   color: var(--theme-menu-hover-color) !important;
 }
 .el-menu-item.is-active {
-  border-right: 2px solid var(--theme-menu-hover-color);
+  border-right: 2px solid var(--theme-menu-border-color);
   position: relative;
   right: 1px;
 }

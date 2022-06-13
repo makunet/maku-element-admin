@@ -41,6 +41,7 @@ export default {
 		interface: 'Interface Settings',
 		uniqueOpened: 'Unique Opened',
 		logo: 'Enable Logo',
+		dark: 'Enable Dark',
 		breadcrumb: 'Enable Breadcrumb',
 		tabs: 'Enable Tabs',
 		tabsCache: 'Enable Tabs Cache',

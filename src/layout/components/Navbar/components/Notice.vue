@@ -1,27 +1,25 @@
 <template>
-	<el-popover trigger="click" :width="280" :persistent="false">
+	<el-popover trigger="click" :width="280">
 		<template #reference>
 			<svg-icon icon="icon-notification" />
 		</template>
-		<template #default>
-			<div class="head-box">
-				<div class="head-box-title">通知</div>
-				<div v-if="noticeList.length > 0" class="head-box-btn" @click="handleRead">全部已读</div>
-			</div>
-			<div class="content-box">
-				<template v-if="noticeList.length > 0">
-					<div v-for="(v, k) in noticeList" :key="k" class="content-box-item">
-						<div>{{ v.label }}</div>
-						<div class="content-box-msg">
-							{{ v.value }}
-						</div>
-						<div class="content-box-time">{{ v.time }}</div>
+		<div class="head-box">
+			<div class="head-box-title">通知</div>
+			<div v-if="noticeList.length > 0" class="head-box-btn" @click="handleRead">全部已读</div>
+		</div>
+		<div class="content-box">
+			<template v-if="noticeList.length > 0">
+				<div v-for="(v, k) in noticeList" :key="k" class="content-box-item">
+					<div>{{ v.label }}</div>
+					<div class="content-box-msg">
+						{{ v.value }}
 					</div>
-				</template>
-				<el-empty v-else description="暂无通知"></el-empty>
-			</div>
-			<div v-if="noticeList.length > 0" class="foot-box" @click="handleNoticeLink">全部通知</div>
-		</template>
+					<div class="content-box-time">{{ v.time }}</div>
+				</div>
+			</template>
+			<el-empty v-else description="暂无通知"></el-empty>
+		</div>
+		<div v-if="noticeList.length > 0" class="foot-box" @click="handleNoticeLink">全部通知</div>
 	</el-popover>
 </template>
 

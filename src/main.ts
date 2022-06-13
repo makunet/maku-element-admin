@@ -9,7 +9,6 @@ import 'virtual:svg-icons-register'
 import '@/icons/iconfont/iconfont'
 import '@/styles/index.scss'
 import 'element-plus/theme-chalk/src/message.scss'
-import 'element-plus/theme-chalk/dark/css-vars.css'
 
 const app = createApp(App)
 

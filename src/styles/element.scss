@@ -51,7 +51,7 @@
   }
 }
 .el-menu-item.is-active{
-  border-right: 2px solid var(--theme-menu-hover-color);
+  border-right: 2px solid var(--theme-menu-border-color);
   position: relative;
   right:1px;
 }
@@ -83,9 +83,9 @@
   height: var(--theme-header-height);
   padding: 0 15px;
   margin-bottom: 0 !important;
-  color: #595959;
   font-size: 15px;
-  border-bottom: 1px solid #f4f4f4;
+  border-bottom: 1px solid var(--el-border-color);
+  color: var(--el-text-color-primary);
 }
 .el-card.is-always-shadow{
   box-shadow: none !important;
