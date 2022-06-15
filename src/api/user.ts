@@ -1,31 +1,13 @@
-import request from '@/utils/request'
+import service from '@/utils/request'
 
-export function login(data: any) {
-	return request({
-		url: '/data/login.json',
-		method: 'post',
-		data
-	})
+export const useUserInfoApi = () => {
+	return service.get('/data/user/info.json')
 }
 
-export function getUserInfo() {
-	return request({
-		url: '/data/user.json',
-		method: 'get'
-	})
+export const updatePasswordApi = (data: any) => {
+	return service.put('/data/success.json', data)
 }
 
-export function updatePassword(data: any) {
-	return request({
-		url: '/data/success.json',
-		method: 'post',
-		data
-	})
-}
-
-export function logout() {
-	return request({
-		url: '/data/success.json',
-		method: 'post'
-	})
+export const useUserApi = (id: number) => {
+	return service.get('/data/user/1.json')
 }
