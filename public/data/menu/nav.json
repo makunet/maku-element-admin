@@ -22,6 +22,13 @@
           "url": "menu/index",
           "openStyle": 0,
           "icon": "icon-unorderedlist"
+        },
+        {
+          "id": 13,
+          "name": "机构管理",
+          "url": "org/index",
+          "openStyle": 0,
+          "icon": "icon-unorderedlist"
         }
       ]
     },

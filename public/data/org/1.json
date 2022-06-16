@@ -1,0 +1,13 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "id": 1,
+    "pid": 0,
+    "children": [],
+    "name": "技术部门",
+    "sort": 0,
+    "createTime": "2022-04-28 23:03:15",
+    "parentName": null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": [
+    {
+      "id": 1,
+      "pid": 0,
+      "children": [
+        {
+          "id": 9,
+          "pid": 1,
+          "children": [],
+          "name": "测试组",
+          "sort": 0,
+          "createTime": "2022-04-28 23:03:15",
+          "parentName": "技术部门"
+        },
+        {
+          "id": 10,
+          "pid": 1,
+          "children": [],
+          "name": "开发组",
+          "sort": 1,
+          "createTime": "2022-04-28 23:03:15",
+          "parentName": "技术部门"
+        },
+        {
+          "id": 11,
+          "pid": 1,
+          "children": [],
+          "name": "运维组",
+          "sort": 2,
+          "createTime": "2022-04-28 23:03:15",
+          "parentName": "技术部门"
+        }
+      ],
+      "name": "技术部门",
+      "sort": 0,
+      "createTime": "2022-04-28 23:03:15",
+      "parentName": null
+    },
+    {
+      "id": 3,
+      "pid": 0,
+      "children": [
+        {
+          "id": 4,
+          "pid": 3,
+          "children": [],
+          "name": "直客组",
+          "sort": 2,
+          "createTime": "2022-04-28 23:03:58",
+          "parentName": "销售部门"
+        }
+      ],
+      "name": "销售部门",
+      "sort": 0,
+      "createTime": "2022-04-28 23:03:32",
+      "parentName": null
+    }
+  ]
+}
