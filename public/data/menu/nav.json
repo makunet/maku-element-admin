@@ -14,35 +14,35 @@
           "name": "菜单管理",
           "url": "menu/index",
           "openStyle": 0,
-          "icon": "icon-unorderedlist"
+          "icon": "icon-menu"
         },
         {
           "id": 12,
           "name": "用户管理",
           "url": "user/index",
           "openStyle": 0,
-          "icon": "icon-unorderedlist"
+          "icon": "icon-user"
         },
         {
           "id": 13,
           "name": "机构管理",
           "url": "org/index",
           "openStyle": 0,
-          "icon": "icon-unorderedlist"
+          "icon": "icon-cluster"
         },
         {
           "id": 14,
           "name": "角色管理",
           "url": "role/index",
           "openStyle": 0,
-          "icon": "icon-unorderedlist"
+          "icon": "icon-team"
         },
         {
           "id": 15,
           "name": "岗位管理",
           "url": "post/index",
           "openStyle": 0,
-          "icon": "icon-unorderedlist"
+          "icon": "icon-addteam"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "name": "图表",
       "url": null,
       "openStyle": 0,
-      "icon": "icon-setting",
+      "icon": "icon-barchart",
       "children": [
         {
           "id": 31,
@@ -81,7 +81,7 @@
       "name": "编辑器",
       "url": null,
       "openStyle": 0,
-      "icon": "icon-setting",
+      "icon": "icon-edit",
       "children": [
         {
           "id": 41,
@@ -104,7 +104,7 @@
       "name": "界面",
       "url": null,
       "openStyle": 0,
-      "icon": "icon-setting",
+      "icon": "icon-windows",
       "children": [
         {
           "id": 51,
@@ -148,7 +148,7 @@
       "name": "多级菜单",
       "url": null,
       "openStyle": 0,
-      "icon": "icon-setting",
+      "icon": "icon-unorderedlist",
       "children": [
         {
           "id": 101,
