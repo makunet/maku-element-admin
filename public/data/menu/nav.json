@@ -11,15 +11,15 @@
       "children": [
         {
           "id": 11,
-          "name": "用户管理",
-          "url": "user/index",
+          "name": "菜单管理",
+          "url": "menu/index",
           "openStyle": 0,
           "icon": "icon-unorderedlist"
         },
         {
           "id": 12,
-          "name": "菜单管理",
-          "url": "menu/index",
+          "name": "用户管理",
+          "url": "user/index",
           "openStyle": 0,
           "icon": "icon-unorderedlist"
         },
@@ -27,6 +27,13 @@
           "id": 13,
           "name": "机构管理",
           "url": "org/index",
+          "openStyle": 0,
+          "icon": "icon-unorderedlist"
+        },
+        {
+          "id": 14,
+          "name": "角色管理",
+          "url": "role/index",
           "openStyle": 0,
           "icon": "icon-unorderedlist"
         }
