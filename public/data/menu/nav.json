@@ -36,6 +36,13 @@
           "url": "role/index",
           "openStyle": 0,
           "icon": "icon-unorderedlist"
+        },
+        {
+          "id": 15,
+          "name": "岗位管理",
+          "url": "post/index",
+          "openStyle": 0,
+          "icon": "icon-unorderedlist"
         }
       ]
     },

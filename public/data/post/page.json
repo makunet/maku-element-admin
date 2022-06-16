@@ -1,0 +1,1 @@
+{"code":0,"msg":"success","data":{"total":3,"list":[{"id":17,"postCode":"pm","postName":"产品","sort":0,"status":1,"createTime":"2022-04-28 22:05:53"},{"id":14,"postCode":"dev","postName":"研发","sort":1,"status":1,"createTime":"2022-04-28 22:05:53"},{"id":18,"postCode":"test","postName":"测试","sort":2,"status":1,"createTime":"2022-04-28 22:05:53"}]}}
