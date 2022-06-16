@@ -5,16 +5,13 @@ export function useMenuNavApi() {
 }
 
 export const useAuthorityListApi = () => {
-	return service.get('/data/menu/authority')
+	return service.get('/data/menu/authority.json')
 }
 
-export const useMenuListApi = (type: Number) => {
-	// 菜单类型 0：菜单  1：按钮  2：接口
-	const menuType = type === 2 ? 2 : 0
-
-	return service.get('/data/menu/list?type=' + menuType)
+export const useMenuListApi = () => {
+	return service.get('/data/menu/list.json')
 }
 
 export const useMenuApi = (id: Number) => {
-	return service.get('/data/menu/' + id)
+	return service.get('/data/menu/1.json')
 }

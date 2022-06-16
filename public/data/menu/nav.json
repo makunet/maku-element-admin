@@ -4,15 +4,22 @@
   "data": [
     {
       "id": 1,
-      "name": "权限管理",
+      "name": "系统管理",
       "url": null,
       "openStyle": 0,
       "icon": "icon-setting",
       "children": [
         {
-          "id":11,
+          "id": 11,
           "name": "用户管理",
           "url": "user/index",
+          "openStyle": 0,
+          "icon": "icon-unorderedlist"
+        },
+        {
+          "id": 12,
+          "name": "菜单管理",
+          "url": "menu/index",
           "openStyle": 0,
           "icon": "icon-unorderedlist"
         }
@@ -26,7 +33,7 @@
       "icon": "icon-setting",
       "children": [
         {
-          "id":31,
+          "id": 31,
           "name": "堆叠面积图",
           "url": "charts/AreaStack",
           "openStyle": 0,
@@ -56,14 +63,14 @@
       "icon": "icon-setting",
       "children": [
         {
-          "id":41,
+          "id": 41,
           "name": "富文本编辑器",
           "url": "editor/WangEditor",
           "openStyle": 0,
           "icon": "icon-unorderedlist"
         },
         {
-          "id":42,
+          "id": 42,
           "name": "Markdown编辑器",
           "url": "editor/MdEditor",
           "openStyle": 0,
@@ -79,35 +86,35 @@
       "icon": "icon-setting",
       "children": [
         {
-          "id":51,
+          "id": 51,
           "name": "Icon 图标",
           "url": "icons/index",
           "openStyle": 0,
           "icon": "icon-unorderedlist"
         },
         {
-          "id":52,
+          "id": 52,
           "name": "二维码生成",
           "url": "qrcode/index",
           "openStyle": 0,
           "icon": "icon-unorderedlist"
         },
         {
-          "id":53,
+          "id": 53,
           "name": "页面打印",
           "url": "printJs/index",
           "openStyle": 0,
           "icon": "icon-unorderedlist"
         },
         {
-          "id":54,
+          "id": 54,
           "name": "图片裁剪",
           "url": "cropper/index",
           "openStyle": 0,
           "icon": "icon-unorderedlist"
         },
         {
-          "id":55,
+          "id": 55,
           "name": "复制文本",
           "url": "copy/index",
           "openStyle": 0,

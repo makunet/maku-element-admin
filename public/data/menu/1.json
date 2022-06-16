@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "id": 2,
+    "pid": 1,
+    "children": [],
+    "name": "菜单管理",
+    "url": "sys/menu/index",
+    "type": 0,
+    "openStyle": 0,
+    "icon": "icon-menu",
+    "authority": null,
+    "sort": 0,
+    "createTime": null,
+    "parentName": "系统设置"
+  }
+}
