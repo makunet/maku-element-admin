@@ -11,7 +11,7 @@
 git clone https://gitee.com/makunet/vue-element-plus-admin.git
 
 # 进入项目
-cd fast-admin
+cd vue-element-plus-admin
 
 # 安装依赖
 npm install
