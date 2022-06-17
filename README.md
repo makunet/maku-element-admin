@@ -1,5 +1,5 @@
 ## 介绍
-- 基于Vue3、TypeScript、Element Plus、Vue Router、Pinia、Axios、i18n、Vite等开发的后台管理模板，使用门槛极低，采用MIT开源协议，完全免费开源且终身免费，可免费用于商业项目等场景。
+- 基于Vue3、TypeScript、Element Plus、Vue Router、Pinia、Axios、i18n、Vite等开发的Element-Plus后台管理模板，使用门槛极低，采用MIT开源协议，完全免费开源且终身免费，可免费用于商业项目等场景。
 - 开发文档：[https://maku.net/docs/vue-element-plus-admin](https://maku.net/docs/vue-element-plus-admin)
 - 演示环境：https://demo.maku.net/vue-element-plus-admin
 
