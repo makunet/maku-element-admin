@@ -13,5 +13,5 @@ export const useLoginApi = (data: any) => {
 }
 
 export const useLogoutApi = () => {
-	return service.post('/data/oauth/success.json')
+	return service.post('/data/success.json')
 }
