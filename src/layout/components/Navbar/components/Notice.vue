@@ -28,7 +28,7 @@ import { ref } from 'vue'
 
 const noticeList = ref([
 	{
-		label: 'vue-element-plus-admin 发布',
+		label: 'fast-element-admin 发布',
 		value: '基于Vue3、TypeScript、Vue Router、Pinia、Axios、i18n、Element Plus、Vite等开发的后台管理模板！',
 		time: '2022-05-01'
 	},
