@@ -59,7 +59,6 @@ declare module '@vue/runtime-core' {
     Lang: typeof import('./src/components/Lang/index.vue')['default']
     Loading: typeof import('element-plus/es')['ElLoadingDirective']
     MdEditor: typeof import('./src/components/MdEditor/index.vue')['default']
-    Popover: typeof import('element-plus/es')['ElPopoverDirective']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SvgIcon: typeof import('./src/components/SvgIcon/index.vue')['default']

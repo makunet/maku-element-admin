@@ -11,11 +11,11 @@
     "@element-plus/icons-vue": "2.0.6",
     "@kangc/v-md-editor": "^2.3.15",
     "@vueuse/core": "^8.2.6",
-    "@wangeditor/editor": "^5.1.1",
-    "@wangeditor/editor-for-vue": "^5.1.11",
+    "@wangeditor/editor": "5.1.1",
+    "@wangeditor/editor-for-vue": "5.1.12",
     "axios": "^0.26.1",
     "echarts": "^5.3.2",
-    "element-plus": "2.2.8",
+    "element-plus": "2.2.9",
     "mitt": "^3.0.0",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.14",
@@ -54,7 +54,8 @@
     "vuejs",
     "vite",
     "element-plus",
-    "vue-element-plus-admin"
+    "vue-element-plus",
+    "fast-element-admin"
   ],
   "license": "MIT"
 }
