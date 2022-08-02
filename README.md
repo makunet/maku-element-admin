@@ -5,7 +5,7 @@
 - 开发文档：https://maku.net/docs/fast-element-admin
 
 ## 安装
-注意：需使用 nodejs 长期维护版本，如：[14.x、16.x]，能保证项目的稳定运行。
+注意：需使用 nodejs 长期维护版本，如：[14.18+、16.x]，能保证项目的稳定运行。
 
 ```bash
 # 克隆项目
