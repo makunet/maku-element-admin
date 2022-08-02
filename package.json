@@ -15,7 +15,7 @@
     "@wangeditor/editor-for-vue": "5.1.12",
     "axios": "0.26.1",
     "echarts": "5.3.2",
-    "element-plus": "2.2.9",
+    "element-plus": "2.2.11",
     "mitt": "3.0.0",
     "nprogress": "0.2.0",
     "pinia": "2.0.16",
