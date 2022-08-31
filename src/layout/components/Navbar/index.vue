@@ -11,10 +11,10 @@
 			<a href="https://maku.net" target="_blank">
 				<svg-icon icon="icon-earth"></svg-icon>
 			</a>
-			<a href="https://github.com/makunet/fast-element-admin" target="_blank">
+			<a href="https://github.com/makunet/maku-element-admin" target="_blank">
 				<svg-icon icon="icon-github-fill"></svg-icon>
 			</a>
-			<a href="https://gitee.com/makunet/fast-element-admin" target="_blank">
+			<a href="https://gitee.com/makunet/maku-element-admin" target="_blank">
 				<svg-icon icon="icon-gitee-fill-round"></svg-icon>
 			</a>
 
