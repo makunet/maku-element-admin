@@ -1,6 +1,5 @@
 ## 介绍
 - maku-element-admin 是一个后台前端解决方案，它基于 Vue3、TypeScript、Element Plus、Pinia、Vite等实现。它使用了最新的前端技术栈，内置了 i18n 国际化解决方案，动态路由，暗黑模式，提供了常用的功能组件，它可以帮助你快速搭建企业级中后台产品原型。
-- 使用门槛极低，采用MIT开源协议，完全免费开源且终身免费，可免费用于商业项目等场景。
 - 演示环境：https://demo.maku.net/maku-element-admin
 - 开发文档：https://maku.net/docs/maku-element-admin
 
@@ -33,7 +32,6 @@ npm run build
 - 官方社区：https://maku.net
 - Github仓库：https://github.com/makunet/maku-element-admin
 - Gitee仓库：https://gitee.com/makunet/maku-element-admin
-- 技术解答、交流、反馈、建议等，请移步到官方社区，我们会及时回复，也方便今后的小伙伴寻找答案，感谢理解！
 
 
 ## 支持
